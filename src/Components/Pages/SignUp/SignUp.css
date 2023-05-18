@@ -1,0 +1,44 @@
+.sign__up-section {
+  max-width: 1180px;
+  margin-inline: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.left__side {
+  /* outline: 2px solid red; */
+  margin-top: 15px;
+  margin-left: -60px;
+}
+
+.sign__up-img img {
+  max-width: 100%;
+}
+
+.right__side {
+  /* outline: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 50px;
+  /* text-align: center; */
+}
+
+@media screen and (width < 1340px) {
+  .sign__up-section {
+    padding: 0 50px;
+  }
+  .container {
+    flex-direction: column;
+    /* padding: 0 50px; */
+  }
+
+  .right__side {
+    margin-top: 0;
+  }
+}

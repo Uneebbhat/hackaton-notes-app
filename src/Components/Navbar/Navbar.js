@@ -1,9 +1,14 @@
 import React from "react";
+import "./Navbar.css";
 
 export default function Navbar() {
   return (
     <div>
-      <h1>navbar</h1>
+      <nav className="navbar">
+        <div className="logo">
+          <p>DailyNotes</p>
+        </div>
+      </nav>
     </div>
   );
 }

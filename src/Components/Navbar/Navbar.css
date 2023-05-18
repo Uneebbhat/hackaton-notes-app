@@ -1,0 +1,12 @@
+.navbar {
+  height: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 2rem;
+}

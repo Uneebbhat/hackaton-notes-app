@@ -1,9 +1,20 @@
+// import {
+//   BrowserRouter as Router,
+//   Route,
+//   Routes,
+//   Link,
+//   Switch,
+// } from "react-router-dom";
+
 import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
+import SignUp from "./Components/Pages/SignUp/SignUp";
 
 function App() {
   return (
     <>
-      <h1>hello</h1>
+      <Navbar />
+      <SignUp />
     </>
   );
 }
